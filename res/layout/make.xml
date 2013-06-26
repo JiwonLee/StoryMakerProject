@@ -38,4 +38,50 @@
     
     </LinearLayout>
     
+    <LinearLayout 
+    	    	android:layout_width="match_parent"
+      			android:layout_height="wrap_content"
+      			android:orientation="vertical" >
+    
+        <EditText 
+        android:id="@+id/textWrite"
+        android:layout_marginTop="5dp"
+        android:layout_width="290dp"
+        android:layout_height="170dp"
+        android:background="@drawable/picturebackground"
+        android:layout_gravity="center"
+        android:hint="그림을 넣어주세요^^" />
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+    	    	android:layout_width="match_parent"
+      			android:layout_height="wrap_content"
+      			android:orientation="horizontal" > 
+      			
+        <ImageButton android:id="@+id/btnTakePicture"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="10dp"
+		        android:background="@android:color/transparent"
+		        android:src="@drawable/btntakepicture" />
+        
+        <ImageButton android:id="@+id/btnReplay"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="4dp"
+		        android:background="@android:color/transparent"
+		        android:src="@drawable/btnreplay" />
+        
+        <ImageButton android:id="@+id/btnSave"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="4dp"
+		        android:background="@android:color/transparent"
+		        android:src="@drawable/btnsave" />
+        
+    </LinearLayout>ㅣ
 </LinearLayout>

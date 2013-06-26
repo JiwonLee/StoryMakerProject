@@ -34,7 +34,8 @@ public class StoryMake_Main extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(StoryMake_Main.this, "목록보기 클릭!", 3000).show();
+				Intent intent = new Intent(StoryMake_Main.this, ListPage.class);
+		    	startActivity(intent);
 			}
 		});
         
@@ -43,7 +44,8 @@ public class StoryMake_Main extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(StoryMake_Main.this, "도움받기 클릭!", 3000).show();
+				Intent intent = new Intent(StoryMake_Main.this, HelpPage.class);
+		    	startActivity(intent);
 			}
 		});
     }
